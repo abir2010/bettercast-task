@@ -4,7 +4,7 @@ body{
 }
 .card{
     padding: 20px 40px;
-    margin: 0 40%;
+    margin: 0 35%;
     box-shadow: 2px 2px 20px 20px rgb(235, 235, 235);
 }
 .div1{
@@ -22,6 +22,12 @@ body{
     color: rgb(101, 119, 255);
     text-decoration: none;
 }
+@media screen and (max-width: 992px) {
+    .card {
+        padding: 15px 30px;
+        margin: 0 20%;
+      }
+  }
 @media screen and (max-width: 600px) {
     .card {
       padding: 5px 10px;
